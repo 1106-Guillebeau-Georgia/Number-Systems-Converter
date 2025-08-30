@@ -1,2 +1,48 @@
 # Number-Systems-Converter
-Number System Conversion Program
+A C-based Number System Conversion Program that converts between various base number systems (Base 10, Hexadecimal, Binary, and Octal)
+
+---
+
+## Features
+- Convert numbers between Decimal, Hexadecimal, Octal, and Binary.
+- Simple console-based interface.
+- Allows multiple conversions in a single session.
+
+--- 
+
+## Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/1106-Guillebeau-Georgia/Number-Systems-Converter.git
+```
+2. Compile the program:
+```bash
+gcc  converter.c -o converter
+```
+
+---
+
+## Usage
+After compiling the program, run it from the console:
+```bash
+./converter
+```
+
+Example Output:
+```
+Convert any integer to Decimal (D), Hexadecimal (H), Octal (O), or Binary (B)! 
+
+What base would you like to convert from? B
+What base would you like to convert to? D
+What binary number would you like to convert: 101
+
+101 in decimal is: 5 
+
+Would you like to continue converting? (Y or N): Y
+
+What base would you like to convert from? D
+What base would you like to convert to? B
+What decimal number would you like to convert: 5
+
+5 in binary is: 101
+```
